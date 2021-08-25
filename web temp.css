@@ -1,0 +1,335 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu{
+    width: 50%;
+    margin-top: 30px;
+}
+.heading{
+    font-size: 72px;
+    color:#f7d7c8;
+    margin:50px auto 20px;
+    font-family: merriweather, serif;
+}
+.photo{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+.name{
+    font-family:  Ubuntu, sans-serif;
+    font-size: 20px;
+    color: #f7d7c8;
+    margin: 30px auto;
+    padding: 0 20px;
+    line-height: 1.2;
+}
+.roboto{
+    color: #999;
+    font-size: 18px;
+    font-family:  roboto;
+    margin: 0 auto 50px;
+    text-align: justify;
+    width:44%;
+
+}
+.socials{
+    display: flex;
+    width:400px;
+    justify-content: space-evenly;
+}
+.facebk, .twtr, .instg{
+    height: 50px;
+    width: 50px;
+}
+.two{
+    display: flex;
+    margin: 150px  auto;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 13%;
+}
+.first-s, .second-s{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 45%; 
+}
+ .first-s h2{
+     font-family: merriweather, serif;
+    font-size: 48px;
+    color: #f7d7c8;  
+    text-align: left;
+    font-weight: 700;
+}
+.rbt{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 4px;
+    width: 20%;
+    margin: 20px 0 ;
+    font-family: roboto, sans-serif;
+}
+.second-s h6{
+    color: #f7d7c8;
+    font-family: ubuntu, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin: 5px 170px 20px 0;
+}
+.second-s p{
+    color: #f2f2f2;
+    font-size: 18px;
+    line-height: 2;
+    margin-right: 115px;
+    font-weight: 400;
+    font-family: open sans, sans-serif;
+    
+}
+.chat-now{
+    width: 20%;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    font-weight: bold;
+    margin-top: 30px;
+    align-items: center;
+}
+.chat{
+    width: 35px;
+    height: 35px;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+.playfair{
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    margin: 100px auto 70px;
+}
+hr{
+    width: 60%;
+    height: 3px;
+    color: black;
+    background-color: #f7d7c8;
+    margin-bottom: 50px;
+}
+#deux{
+    color: #f7d7c8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#deux h2{
+    font-size: 48px;
+    font-family: merriweather, serif;
+    width: 50%;
+    font-weight: 700;
+    margin: 40px auto;
+    line-height: 1.6;
+    text-align: center;
+    
+}
+.arrow{
+    width:50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+#deux h5{
+    font-size: 20px;
+    font-family: ubuntu, sans-serif;
+    margin: 30px auto 60px;
+    color: #f7d7c8;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-bottom: 30px;
+}
+.grp1, .grp2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    margin-bottom: 55px;
+}
+.gallery-pic{
+    border-radius: 50px;
+    width: 28%;
+}
+.more{
+    margin-bottom: 50px;
+}
+.more button{
+    font-size: 20px;
+    font-family: ubuntu;
+    color: #f7d7c8;
+    padding: 20px 65px;
+    border: 2px solid #f7d7c8;
+    background-color: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+button:hover{
+    background-color: #f7d7c8;
+    color:black;
+}
+#trois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#trois h5{
+    font-size: 20px;
+    font-family: Ubuntu, sans-serif;
+    color: #f7d7c8;
+    padding-bottom: 20px;
+    word-wrap: break-word;
+    width: 75%;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#trois p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    word-wrap: break-word;
+    line-height: 1.6;
+    width: 75%;
+}
+.signature{
+    height: ;
+    width:40%;
+    margin-top: 30px;
+}
+#quatre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+#quatre h2{
+    font-family: Merriweather, serif;
+    font-size: 48px;
+    color: #f7d7c8;
+    margin: 30px auto;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.phone{
+    margin:10px auto;
+    display: flex;
+    text-decoration: none;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 15%;
+}
+.phone-icon{
+    width: 30px;
+    height: 30px;
+}
+.phone-no{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color:white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-weight: 700;
+}
+.image{
+    margin: 30px auto;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#quatre h6{
+    font-size: 20px;
+    font-family: ubutu, sans-serif;
+    color: #f7d7c8;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 20px auto;
+}
+.location{
+    font-size: 18px;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 18%;
+    line-height: 1.6;
+}
+.bar{
+    color: #f7d7c8;
+    margin: 30px auto;
+    width:200px;
+    border:none;
+    height: 10px;
+}
+.sample{
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: open sans, sans-serif;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 18%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #333333;
+    height: 30vh;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-txt{
+    font-size: 18px;
+    color: white;
+    width: 700px;
+    margin: 0 auto;
+}
+.links{
+    line-height: 1.6;
+    color: white;
+}
+.a-link{
+    color: #d7cce5;
+    word-spacing: normal;
+    line-height: 1.6;
+}
+.a-link:hover{
+    color:violet;
+}
+footer a{ 
+    text-decoration: underline;
+}
