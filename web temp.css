@@ -24,7 +24,7 @@ a{
     font-size: 72px;
     color:#f7d7c8;
     margin:50px auto 20px;
-    font-family: merriweather, serif;
+    font-family: 'Merriweather', serif;
 }
 .photo{
     border-radius: 50%;
@@ -32,7 +32,7 @@ a{
     width: 400px;
 }
 .name{
-    font-family:  Ubuntu, sans-serif;
+    font-family:  'Ubuntu', sans-serif;
     font-size: 20px;
     color: #f7d7c8;
     margin: 30px auto;
@@ -59,7 +59,7 @@ a{
 }
 .two{
     display: flex;
-    margin: 150px  auto;
+    margin: 150px  auto 70px;
     justify-content: space-evenly;
     width: 80%;
     margin-left: 13%;
